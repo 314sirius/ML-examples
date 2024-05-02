@@ -8,3 +8,9 @@ This Python script performs image clustering using the K-Means clustering algori
 * NumPy
 * scikit-learn
 * matplotlib
+
+# Example3: Exoplanets Orbital Data Visualization and Clustering
+## Interactive Scatter Plot of Orbital Period vs. Semi-Major Axis
+This visualization explores the relationship between a celestial body's orbital period and its semi-major axis (a measure of its orbit's size). It leverages data from a Pandas DataFrame named `df_period_distance`.
+
+The chart is created using the `altair` library and allows for interactivity (hovering over points reveals details).
