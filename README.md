@@ -8,3 +8,21 @@ This Python script performs image clustering using the K-Means clustering algori
 * NumPy
 * scikit-learn
 * matplotlib
+
+# Example3: Exoplanets Orbital Data Visualization and Clustering
+Data were retrieved from the NASA Exoplanet Archive [ExoTbls](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS).
+* pl_name: Planet Name
+* sy_snum: Number of Stars in the system
+* pl_orbper: Orbital Period [days]
+* pl_orbsmax: Orbit Semi-Major Axis [au]
+* pl_rade: Planet Radius [Earth Radius]
+* pl_bmasse: Planet Mass or Mass*sin(i) [Earth Mass]
+* st_mass: Stellar Mass [Solar mass]
+* sy_dist: Distance [pc]
+
+## Interactive Scatter Plot of Orbital Period vs. Semi-Major Axis
+This visualization explores the relationship between a celestial body's orbital period and its semi-major axis (a measure of its orbit's size). 
+The chart is created using the `altair` library and allows for interactivity (hovering over points reveals details).
+
+## Exoplanet Density vs Mass
+Data can be clustered in two groups: dense and small rocky planets, and less dense giants. 
